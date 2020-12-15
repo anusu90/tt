@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install",
+    "build": "npm install && mkdir dist/node_modules && mv node_modules/bootstrap dist/node_modules/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
